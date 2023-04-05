@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:url("images/melkyway.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:0vh;
+    width:100vw;
+}
+#logo{
+    line-height:100px;
+    font-weight:700;
+    font-size:2rem;
+    margin-left:100px;
+    text-transform:capitalize;
+    color:#fff;
+}
+nav{
+    background:#28B463;
+    height:100px;
+}
+ul{
+    float:right;
+    line-height:100px;
+    margin-right:70px;
+}
+ul li{
+    display:inline-block;
+    margin-right:30px;
+}
+ul li a{
+    color:#fff;
+    text-transform:capitalize;
+    font-size:16px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+#about h1{
+    margin: 55px;
+    color: white;
+}
+.about{
+    display: flex;
+}
+.about img{
+    width: 350px;
+    height: 340px;
+    padding: 0px 30px;
+}
+.name{
+    padding: 10px;
+}
+.name h2{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.name p{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.header{
+    text-align: center;
+    text-transform: capitalize;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:url("images/web.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+}
+#logo{
+    line-height:100px;
+    font-weight:700;
+    font-size:2rem;
+    margin-left:100px;
+    text-transform:capitalize;
+    color:#fff;
+}
+nav{
+    background:#28B463;
+    height:100px;
+}
+ul{
+    float:right;
+    line-height:100px;
+    margin-right:70px;
+}
+ul li{
+    display:inline-block;
+    margin-right:30px;
+}
+ul li a{
+    color:#fff;
+    text-transform:capitalize;
+    font-size:16px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+#contact h1{
+    margin: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}    
+.card{
+    background-color: #fff;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    align-items: center;
+    text-transform: capitalize;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s all ease;
+}
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+}
+.char-1{
+    background-image: url(images/contact1.jpg);
+}
+.char-2{
+    background-image: url(images/contact2.jpg);
+}
+.char-3{
+    background-image: url(images/contact3.jpg);
+}
+.card a{
+    text-decoration: none;
+    color: #111;
+    font-size: 2.5rem;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+h1:hover {
+    transform: rotate(0deg);
+    transition: 0.2s all ease;
+    cursor: pointer;
+    color: black;
+}
+a:hover{
+    transition: 2s all ease;
+    transform: rotate(0deg);
+    cursor: pointer;
+    color: aqua;
+}
